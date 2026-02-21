@@ -1,0 +1,65 @@
+{
+    "terminal.integrated.commandsToSkipShell": ["-workbench.action.quickOpen"],
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "zsh",
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+    // These are key-presses VIM extensions should/shouldn't (false) handle
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-h>": false,
+        "<C-w>": false,
+        "<C-a>": false,
+        "<C-n>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-k>": false,
+        "<C-x>": false,
+        "<C-p>": false,
+        "<tab>": false,
+        "<C-Right>": false,
+        "<C-Left>": false
+    },
+    "editor.renderWhitespace": "all",
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.accessibilitySupport": "off",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "extensions.autoCheckUpdates": false,
+    "workbench.colorTheme": "Dracula Theme",
+    "[yaml]": {
+        "diffEditor.ignoreTrimWhitespace": true
+    },
+    "chat.commandCenter.enabled": false,
+    "explorer.confirmDelete": false,
+    "update.mode": "none",
+    "editor.fontSize": 13,
+    "window.density.editorTabHeight": "compact",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "window.title": "${rootNameShort}${separator}${remoteName}${separator}${dirty}${activeEditorShort}${separator}${profileName}${separator}${appName}",
+    "window.titleSeparator": " | ",
+    "explorer.confirmDragAndDrop": false,
+    "git.openRepositoryInParentFolders": "never",
+}
